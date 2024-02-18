@@ -2,19 +2,45 @@
 
 ## version 24.2-beta.0
 
-**Check the new online app at [audiomotion.app](https://audiomotion.app)**
+> Updated source code is in the `dev` branch
 
-> **This is BETA software! Expect bugs!**
+A little over two years ago, I started working on turning audioMotion into a native application using **Electron**, but then I realized it
+would be a pain to keep up with the constant framework updates and huge dependency tree.
 
-### Known bugs and limitations:
+Then, I wanted to believe **File System Access API** was gaining traction for wider browser adoption and thought it would be really cool
+to have an official audioMotion web app that everyone could use to play their own music without needing to download or install anything, while
+also being easier for me to maintain. So I began adding support for that too. Turns out, it's 2024 and this API is still supported by Chromium only.
 
-+ Access to local device works only on Chromium browsers, due to currently limited [File System Access API support](https://caniuse.com/native-filesystem-api)
-  - Chrome and Edge should work by default; on Brave you'll need to enable it in [chrome://flags/#file-system-access-api](chrome://flags/#file-system-access-api)
-+ Saving and loading playlists on File System mode doesn't work yet;
-+ Documentation hasn't been updated yet.
+In the meantime, I've found out that some people were actually using audioMotion as a self-hosted web app and, since this is also how I use
+it myself on my old NAS, I wanted to keep the app working on any standard web server as well.
+
+**TL;DR -** audioMotion code is now more complex than ever, but lately I simply haven't had the time or energy to work on it as much as I'd
+like to, so I still don't have a stable version working 100% as I want.
+
+However, this version does have a lot of new cool features added since the last public release, and my wife and I have been using it at home,
+and she keeps telling me I need to publish it.
+
+So.. there you have it!
+
+**Check the new web app:**
+
+[![Button Icon]][Link]
+
+[Link]: https://audiomotion.app 'click to open web app'
+
+[Button Icon]: https://img.shields.io/badge/audioMotion.app-ff3e37?style=for-the-badge&logoColor=white&logo=Soundcharts
+
+> **⚠️ This is BETA software! Expect bugs!**
+
+### Known limitations: <!-- {docsify-ignore} -->
+
++ Access to local device works only on Chromium-based browsers, due to currently limited [File System Access API support](https://caniuse.com/native-filesystem-api)<br>should work on Chrome and Edge by default; on Brave you'll need to enable it in `chrome://flags/#file-system-access-api`
++ Saving and loading playlists on File System API mode doesn't work yet;
++ Documentation isn't fully updated yet.
 
 ### Added: <!-- {docsify-ignore} -->
 
++ Support to File System Access API, allows the web app to play music from your local device;
 + *Bark*, *Mel* and linear frequency scales for improved visualization of mid-range and high frequencies;
 + Frequency weighting filters;
 + New dual-channel layouts: horizontal (side-by-side channels) and combined (overlaid channels);

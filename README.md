@@ -1,10 +1,8 @@
+### audioMotion new web app (BETA):
 
-# audioMotion BETA live demo:
-# [https://audiomotion.app](https://audiomotion.app)
+# [🎵 audiomotion.app](https://audiomotion.app)
 
-
-Check the [release post](https://github.com/hvianna/audioMotion.js) for more information and to send feedback, bug reports or questions.
-
+Check the [release post](https://github.com/hvianna/audioMotion.js/releases) for more information.
 
 ## License
 
