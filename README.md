@@ -2,7 +2,7 @@
 
 # [🎵 audiomotion.app](https://audiomotion.app)
 
-Check the [release post](https://github.com/hvianna/audioMotion.js/releases) for more information.
+Check the [release discussion](https://github.com/hvianna/audioMotion.js/discussions/46) for more information.
 
 ## License
 
