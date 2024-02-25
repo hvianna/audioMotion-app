@@ -26,7 +26,7 @@
 
 ## Getting started
 
-Click the button below to open the app:
+Click the button below to open the web app:
 
 > [![Button Icon]][Link]
 
@@ -47,11 +47,13 @@ Also check out our [**YouTube channel**](https://audiomotion.me/yt) for some coo
 
 ### Special thanks <!-- {docsify-ignore} -->
 
-I would like to thank my wife **Virginia** for her continued support, encouragement and feedback! :kissing_heart:
+I would like to thank:
 
-[Yuji Koike](https://www.ykcircus.com/) for his great [Soniq Viewer for iOS](https://itunes.apple.com/us/app/soniq-viewer/id448343005), which inspired me to create **audioMotion.**
+My wife **Virginia**, for her never-ending love and support! 💞
 
-And all the developers and content creators for the resources listed below.
+[Yuji Koike](http://ykcircus.com), for his great [Soniq Viewer for iOS](https://itunes.apple.com/us/app/soniq-viewer/id448343005), which inspired me to create **audioMotion.**
+
+And all the developers and content creators, for the resources listed below.
 
 ### JavaScript libraries <!-- {docsify-ignore} -->
 
@@ -91,7 +93,7 @@ Some of audioMotion's great features are provided by these awesome open-source l
 * Knobs design based on [Dark dial](https://codepen.io/stormwarning/pen/yNGeMm) by Jeff
 * Warp effects based on [this pen](https://codepen.io/trangthule/pen/vYmpNYR) by bytrangle
 
-### Resources used in the demo site <!-- {docsify-ignore} -->
+### Resources used in the web app <!-- {docsify-ignore} -->
 
 * Background images
   * "Band Performing on Stage" by [Vishnu R Nair](https://unsplash.com/@vishnurnair?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
