@@ -2,25 +2,22 @@
 
 ![audioMotion-header](img/audioMotion-header.png)
 
-> **audioMotion** is a high-resolution real-time audio spectrum analyzer and full-featured music player that lets you **see your music!** ♪♫🤩<br>
+> **audioMotion** is a music player and high-resolution real-time audio spectrum analyzer that allows you to **SEE your music!** ♪♫🤩<br>
 > It is completely free, open-source software, created out of my passion for the graphic spectrum analyzers of hi-fi systems from the 1980s.
 
 ## Features
 
-* High-resolution real-time dual channel audio spectrum analyzer
+* Dual channel high-resolution real-time audio spectrum analyzer
 * Fullscreen and Picture-In-Picture support at 60fps, ready for retina / HiDPI displays
 * Logarithmic, linear and perceptual (Bark and Mel) frequency scales, with customizable range
 * Visualization of discrete FFT frequencies or up to 240 frequency bands (supports ANSI and equal-tempered octave bands)
 * Decibel and linear amplitude scales, with customizable sensitivity
 * Optional A, B, C, D and ITU-R 468 weighting filters
-* Optional effects: vintage LEDs, variable opacity, mirroring and reflection, radial visualization
+* Optional effects: vintage LEDs, variable opacity, mirroring and reflection, radial spectrum
 * 17 beautiful color gradients, plus a visual editor to easily create your own gradients
-* HTML5 audio player for MP3, AAC (m4a), OGG and FLAC files (support may vary depending on browser and operating system)
-* Visual file explorer and play queue with drag-and-drop functionality
-* Support for M3U playlists (`m3u` and `m3u8` file extensions)
+* Music player for audio and video file formats (codec support may vary depending on browser and operating system)
+* Support for M3U playlists (.m3u and .m3u8 file extensions)
 * Visualize audio from your microphone (or "stereo mix", if your soundcard supports it)
-* Lightweight custom file server — also works on standard web servers with minimal configuration
-* Client runs on any modern browser (tested on Chrome, Firefox, Opera and Safari)
 
 ?> **For developers:**<br>Check out [**audioMotion-analyzer**](https://audiomotion.dev) for easy integration of audioMotion's full-featured spectrum analyzer into your own Javascript projects!
 
@@ -34,14 +31,15 @@ Click the button below to open the web app:
 
 [Button Icon]: https://img.shields.io/badge/audioMotion.app-ff3e37?style=for-the-badge&logoColor=white&logo=Soundcharts
 
-
 **Use a Chromium-based browser to be able to play music from your hard drive.**<br>
-Works on Chrome and Edge by default. On Brave you'll need to enable it in `chrome://flags/#file-system-access-api`.
+Works on Chrome, Opera and Edge by default. On Brave you'll need to enable it in `chrome://flags/#file-system-access-api`.
 
 The app also includes a few server-hosted songs and some online radio streams ([credits here](#resources-used-in-the-demo-site)).<br>
-Click the **[ Use server music ]** button to switch to server mode.
+Click the [**Switch to Server**](users-manual.md#file-explorer-and-play-queue) button to switch to server mode.
 
-Also check out our [**YouTube channel**](https://audiomotion.me/yt) for some cool songs visualized with audioMotion!
+Also check out our [**YouTube channel**](https://youtube.com/@audioMotionJS) for some cool songs visualized with audioMotion!
+
+?> See the [User's Manual](users-manual.md) for the complete documentation of audioMotion's features and settings.
 
 ## Credits
 
@@ -53,11 +51,9 @@ My wife **Virginia**, for her never-ending love and support! 💞
 
 [Yuji Koike](http://ykcircus.com), for his great [Soniq Viewer for iOS](https://itunes.apple.com/us/app/soniq-viewer/id448343005), which inspired me to create **audioMotion.**
 
-And all the developers and content creators, for the resources listed below.
+And all the developers and artists, for the following resources:
 
 ### JavaScript libraries <!-- {docsify-ignore} -->
-
-Some of audioMotion's great features are provided by these awesome open-source libraries:
 
 * [buffer](https://www.npmjs.com/package/buffer) - Node.js Buffer API, for the browser
 * [express](https://www.npmjs.com/package/express) - fast, unopinionated, minimalist web framework for node
@@ -81,6 +77,7 @@ Some of audioMotion's great features are provided by these awesome open-source l
 * Fonts [Orbitron](https://github.com/theleagueof/orbitron), [Jet Brains Mono](https://github.com/JetBrains/JetBrainsMono) (_from [Google Fonts](https://fonts.google.com/specimen/JetBrains+Mono)_) and
 [Sofia-Sans Semi-Condensed](https://github.com/lettersoup/Sofia-Sans) licensed under the [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl)
 * Icons provided by [icons8](https://icons8.com) licensed under [Creative Commons Attribution-NoDerivs 3.0 Unported](https://creativecommons.org/licenses/by-nd/3.0/)
+* Additional icons provided by [@fontawesome](https://fontawesome.com) licensed under [Font Awesome Free License](https://fontawesome.com/license/free)
 * [Mouse scroll icon](https://thenounproject.com/term/mouse-scroll/628146/) by Viktor Ostrovsky, licensed under [Creative Commons CCBY](https://creativecommons.org/licenses/by/3.0/us/legalcode)
 * Gradients *Prism* and *Rainbow* use the [12-bit rainbow palette](https://iamkate.com/data/12-bit-rainbow/) by Kate Morley
 * Gradients [*Candy*](https://gradienthunt.com/gradient/172), [*Miami*](https://gradienthunt.com/gradient/950), [*Outrun*](https://gradienthunt.com/gradient/317) and [*Tie Dye*](https://gradienthunt.com/gradient/969) from [Gradient Hunt](https://gradienthunt.com)
@@ -109,7 +106,7 @@ Some of audioMotion's great features are provided by these awesome open-source l
   * ["Spell"](https://archive.org/details/Straw_Fields-8753) by [Rolemusic](http://rolemusic.sawsquarenoise.com/) - Licensed under [Creative Commons: By Attribution NonCommercial ShareAlike 3.0 US License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/)
   * ["The Factory"](https://archive.org/details/The_Factory-3613) by [Multifaros](http://multifaros.info.se/) - Licensed under [Creative Commons: By Attribution 3.0 US License](https://creativecommons.org/licenses/by/3.0/us/)
   * ["We Come Together"](https://archive.org/details/ShMusic-DigitalMemories) by [Lukhash](https://lukhash.com) - Licensed under [Creative Commons: By Attribution NonCommercial NoDerivatives 3.0 License](https://creativecommons.org/licenses/by-nc-nd/3.0/)
-  * Web radios: [Classic FM](https://classicfm.com), [Dance Wave!](https://dancewave.online), [Ibiza Global Radio](https://ibizaglobalradio.com), [jazz 4 ever](http://jazz4ever.net), [Nightride FM](https://nightride.fm)
+  * Web radios: [Capital FM](https://capital.fm), [Classic FM](https://classicfm.com), [Costa del Mar](https://cdmradio.net), [Ibiza Global Radio](https://ibizaglobalradio.com), [jazz 4 ever](https://jazz4ever.net), [Nightride FM](https://nightride.fm)
 
 ### References <!-- {docsify-ignore} -->
 
