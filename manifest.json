@@ -1,0 +1,14 @@
+{
+  "name": "audioMotion",
+  "description": "High-resolution real-time audio spectrum analyzer and media player",
+  "lang": "en-US",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "img/favicon256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": "./"
+}
