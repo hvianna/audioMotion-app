@@ -1,8 +1,7 @@
 {
   "name": "audioMotion",
   "short_name": "audioMotion",
-  "description": "High-resolution real-time audio spectrum analyzer and media player",
-  "lang": "en-US",
+  "description": "audioMotion: media player and real-time audio spectrum analyzer",
   "display": "standalone",
   "icons": [
     {
